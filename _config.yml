@@ -78,9 +78,9 @@ analytics:
 
 # Site Author
 author:
-  name             : J. R. (Roger) Tessier"
+  name             : "J. R. (Roger) Tessier"
   avatar           : "me.jpg"
-  bio              : "OK, so you're Brad Pitt. That don't impress me much. (Shania Twain)"
+  bio              : "_OK, so you're Brad Pitt. That don't impress me much._ (Shania Twain)"
   location         : "Toronto ON Canada"
   employer         :
   googlescholar    : "http://yourfullgooglescholarurl.com"
