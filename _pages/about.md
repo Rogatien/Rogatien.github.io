@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "This page was cloned from the academic pages template"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
