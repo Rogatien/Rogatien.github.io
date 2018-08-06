@@ -4,11 +4,11 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2014-spring-teaching-1
 venue: "University 1, Department"
-date: 2014-2018
-location: "City, Country"
+date: 2014-01-01
+location: "Banana, Republic"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+Here I will try to use date ranges
 
 Heading 1
 ======
