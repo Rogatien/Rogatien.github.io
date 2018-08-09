@@ -7,6 +7,8 @@ redirect_from:
   - /markdown.html
 ---
 
+<h1>Does this disable Markdown?</h1>
+
 ## Locations of key files/directories
 
 * Basic config options: _config.yml
