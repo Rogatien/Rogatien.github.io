@@ -17,5 +17,4 @@ implantation and plasticity that may underlie the central percepts of tinnitus.
 
 [Download paper here](http://academicpages.github.io/files/BasuraEtAl2019.pdf)
 
-Recommended citation: Basura, G., X. Hu, J. San Juan, A.M. Tessier and I. Kovelman. (to appear). Human Central Auditory Plasticity; a Review of functional Near-Infrared Spectroscopy (fNIRS) to Measure Cochlear Implant Performance and Tinnitus Perception. Laryngoscope Investigative Otolaryngology. X(X).
 </div>
