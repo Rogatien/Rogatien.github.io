@@ -1,12 +1,5 @@
 {% include base_path %}
 
-{% comment %} I wonder if this ever happens {% endcomment %}
-{% if post.id %}
-<p>Post has an id</p>
-{% else %}
-<p>Post has no id</p>
-{% endif %}
-
 {% if post.header.teaser %}
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
 {% else %}
@@ -39,6 +32,14 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
+    
+    {% comment %} I wonder if this ever happens {% endcomment %}
+    {% if post.id %}
+      <p>Post has an id</p>
+    {% else %}
+      <p>Post has no id</p>
+    {% endif %}
+    
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
