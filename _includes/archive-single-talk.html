@@ -6,6 +6,13 @@
   {% assign teaser = site.teaser %}
 {% endif %}
 
+{% comment %} I wonder if this ever happens {% endcomment %}
+{% if post.id %}
+  <p><b>Post ID ID {post.id}</b></p> 
+{% else %}
+  <p><b>Post ID ID is nil </b></p> 
+{% endif %} 
+
 {% if post.id %}
   {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
 {% else %}
