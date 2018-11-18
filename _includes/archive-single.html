@@ -34,6 +34,13 @@
       {% endif %}
     </h2>
     
+    {% comment %} I wonder if this ever happens {% endcomment %}
+    {% if post.id %}
+      <p>Post has an id (archive-single)</p>
+    {% else %}
+      <p>Post has no id (archive-single)</p>
+    {% endif %}
+    
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
