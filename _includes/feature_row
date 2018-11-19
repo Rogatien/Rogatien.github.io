@@ -1,5 +1,7 @@
 {% include base_path %}
 
+<p><b>archive-single-talk.html</b></p>
+
 {% if include.id %}
   {% assign feature_row = page.[include.id] %}
 {% else %}
