@@ -50,7 +50,8 @@
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
 
-    <p>DEBUG Mardownified excerpt is <b><i> {{post.excerpt | markdownify}} </i></b></p>
+    <p>DEBUG Markdownified excerpt is ***<b><i> {{post.excerpt | markdownify}} </i></b>***</p>
+    <p>DEBUG site.read_more is *** {{ site.read_more }} ***</p>
     
     {% if post.excerpt and site.read_more != 'enabled' %}
     <p class="archive__item-excerpt amtExcerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
