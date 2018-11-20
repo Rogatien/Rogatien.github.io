@@ -42,7 +42,7 @@
     
     {% if post.future == true %} **FUTURE** {% else %} **PUBLISHED** {% endif %}
     
-    {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }},  {{post.location}} {% endif %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
+    {% if post.venue %}<p class="archive__item-excerpt amtVenue" itemprop="description">{{post.type}}, {{ post.venue }},  {{post.location}} {% endif %}
+    {% if post.excerpt %}<p class="archive__item-excerpt amtExcerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
   </article>
 </div>
