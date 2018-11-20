@@ -61,17 +61,18 @@ p {
   margin-bottom: 1.3em;
 }
 
-/* JRT Add this rule */
+/* AMT needs to modify the font-size for the next
+   rules that start with 'amt' */
 div.amtText {
    font-size: 22px;
    color: DarkBlue;
 }
-/* JRT Added this one too */
+
 p.amtCitation {
    font-size: 22px;
    color: DarkBlue;
 }
-/* JRT again */
+
 p.amtExcerpt {
    font-size: 22px;
    color: DarkBlue;
