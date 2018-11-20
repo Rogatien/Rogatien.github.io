@@ -61,10 +61,15 @@ p {
   margin-bottom: 1.3em;
 }
 
-/* Add this rule */
+/* JRT Add this rule */
 div.amtText {
    font-size: 22px;  
 }
+/* JRT Added this one too */
+p.amtCitation {
+   font-size: 40px;
+}
+
 u,
 ins {
   text-decoration: none;
