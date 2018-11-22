@@ -3,6 +3,7 @@ title: "Human Central Auditory Plasticity; a Review of functional Near-Infrared 
 collection: publications
 permalink: /publication/BasuraEtal2019
 excerpt: 'This is an excerpt of the paper.'
+publicationText: Don't say Published in
 date: 2019-01-01
 venue: 'Laryngoscope Investigative Otolaryngology'
 paperurl: 'http://amtessier.github.io/files/BasuraEtAl2019.pdf'
