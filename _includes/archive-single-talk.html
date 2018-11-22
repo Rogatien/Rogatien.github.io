@@ -42,8 +42,6 @@
     {% if post.dateLite %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.dateLite  }}</p>
     {% elsif post.date %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>
     {% endif %}
-           
-    {% if post.future == true %} **FUTURE** {% else %} **PUBLISHED** {% endif %}
     
     {% if post.venue %}<p class="archive__item-excerpt amtVenue" itemprop="description">{{post.type}}, {{ post.venue }},  {{post.location}} {% endif %}
     {% if post.excerpt %}<p class="archive__item-excerpt amtExcerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
