@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/BasuraEtal2019
 excerpt: 'This is an excerpt of the paper.'
 publicationText: To be published in
-date: 2019-01-01
+dateLite: 2019
 venue: 'Laryngoscope Investigative Otolaryngology'
 paperurl: 'http://amtessier.github.io/files/BasuraEtAl2019.pdf'
 citation: 'Basura, G., X. Hu, J. San Juan, A.M. Tessier and I. Kovelman. (to appear). &quot;Human Central Auditory Plasticity; a Review of functional Near-Infrared Spectroscopy (fNIRS) to Measure Cochlear Implant Performance and Tinnitus Perception.&quot; <i>Laryngoscope Investigative Otolaryngology</i>. X(X).'
