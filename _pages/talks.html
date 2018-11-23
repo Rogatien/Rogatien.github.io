@@ -15,7 +15,7 @@ author_profile: true
 
 {% for post in site.talks reversed %}         
    {% if post.dateLite %}
-      {% assign goober post.dateLie %}
+      {% assign goober = post.dateLie %}
   {% else %}   
    {% include archive-single-talk.html %}       
   {% endif %}
