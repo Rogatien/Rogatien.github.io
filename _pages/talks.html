@@ -10,5 +10,13 @@ author_profile: true
 <p><b>_pages/talks.html</b></p>
 
 {% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+  {% if post.dateLite %}
+    {% include archive-single-talk.html %}
+  {% endif %}
+{% endfor %}
+
+{% for post in site.talks reversed %}
+  {% if !post.dateLite %}
+    {% include archive-single-talk.html %}
+  {% endif %}
 {% endfor %}
