@@ -12,3 +12,9 @@ author_profile: true
         {% include archive-single-talk.html %}    
   {% endif %}
 {% endfor %}
+
+{% for post in site.talks reversed %}      
+   {% if post.dateLite == false %}
+        {% include archive-single-talk.html %}    
+  {% endif %}
+{% endfor %}
