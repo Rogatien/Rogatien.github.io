@@ -14,8 +14,9 @@ author_profile: true
 {% endfor %}
 
 {% for post in site.talks reversed %}      
-   Lite Date: {{ post.dateLite }}
-   {% if post.dateLite == false %}
+   {% capture dlSize %}post.dateLite.size{% endcapture %}
+   Lite Date Size: {{ dlSize }}
+   {% if dlSize > 0 %}
         {% include archive-single-talk.html %}    
   {% endif %}
 {% endfor %}
