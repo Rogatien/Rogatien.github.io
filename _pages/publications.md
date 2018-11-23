@@ -11,8 +11,16 @@ author_profile: true
 
 {% include base_path %}
 
-<p><b>_pages/publications.md</b></p>
+{% for post in site.publications reversed %}
+  {% if (post.dateLite %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
 
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
+  {% if (post.dateLite %}
+    {% assign goober = "Done already" %}
+  {% else %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
