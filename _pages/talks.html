@@ -7,19 +7,15 @@ author_profile: true
 
 <p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
 
-FIRST loop is starting<br><br/>
-
 {% for post in site.talks reversed %}      
    {% if post.dateLite %}
         {% include archive-single-talk.html %} 
   {% endif %}
 {% endfor %}
 
-SECOND loop is starting<br><br/>
-
 {% for post in site.talks reversed %}         
    {% if post.dateLite %}
-      Already did {{ post.title }}  Lite Date: *** {{ post.dateLite }} ***  <br/>   
+      {% assign goober 55 %}
   {% else %}   
    {% include archive-single-talk.html %}       
   {% endif %}
