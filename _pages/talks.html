@@ -12,16 +12,15 @@ FIRST loop is starting<br><br/>
 {% for post in site.talks reversed %}      
    {% if post.dateLite %}
         {% include archive-single-talk.html %} 
-         WE HAVE DATELITE<br/>
   {% endif %}
 {% endfor %}
 
 SECOND loop is starting<br><br/>
 
 {% for post in site.talks reversed %}         
-   {% if post.dateLite != "" and post.dateLite != " " %}
-      {% include archive-single-talk.html %}    
+   {% if post.dateLite %}
+      Already did {{ post.title }}  Lite Date: *** {{ post.dateLite }} ***  <br/>   
   {% else %}   
-   {{ post.title }}  Lite Date: *** {{ post.dateLite }} ***  <br/>
+   {% include archive-single-talk.html %}       
   {% endif %}
 {% endfor %}
