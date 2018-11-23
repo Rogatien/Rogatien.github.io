@@ -9,6 +9,6 @@ author_profile: true
 
 <p><b>_pages/talks.html</b></p>
 
-{% for post in site.talks reversed %}
+{% for post in site.talks | sort:'title' %}
   {% include archive-single-talk.html %}
 {% endfor %}
