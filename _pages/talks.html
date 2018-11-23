@@ -10,7 +10,7 @@ author_profile: true
 <p><b>_pages/talks.html</b></p>
 
 {% for post in site.talks reversed %}
-  {% if !post.dateLite %}
+  {% if post.dateLite %}
     {% include archive-single-talk.html %}
   {% endif %}
 {% endfor %}
