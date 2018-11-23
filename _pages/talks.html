@@ -13,10 +13,10 @@ author_profile: true
   {% endif %}
 {% endfor %}
 
-{% for post in site.talks reversed %}      
-   {% capture dlSize %} {{ post.dateLite.size }} {% endcapture %}
-   Lite Date Size: {{ dlSize }}
-   {% if !dlSize %}
+{% for post in site.talks reversed %}         
+   {% if !post.dateLite %}
       {% include archive-single-talk.html %}    
+  {% else %}
+   {{ post.title }}  Lite Date: *** {{ post.dateLite }} ***  <br/>
   {% endif %}
 {% endfor %}
