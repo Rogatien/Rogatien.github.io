@@ -16,5 +16,7 @@ author_profile: true
 {% for post in site.talks reversed %}      
    {% capture dlSize %} {{ post.dateLite.size }} {% endcapture %}
    Lite Date Size: {{ dlSize }}
-
+   {% if dlSize %}
+      {% include archive-single-talk.html %}    
+  {% endif %}
 {% endfor %}
