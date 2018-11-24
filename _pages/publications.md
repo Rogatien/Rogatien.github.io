@@ -12,13 +12,13 @@ author_profile: true
 {% include base_path %}
 
 {% for post in site.publications reversed %}
-  {% if (post.dateLite %}
+  {% if (post.publicationText %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
 
 {% for post in site.publications reversed %}
-  {% if (post.dateLite %}
+  {% if (post.publicationText %}
     {% assign goober = "Done already" %}
   {% else %}
     {% include archive-single.html %}
